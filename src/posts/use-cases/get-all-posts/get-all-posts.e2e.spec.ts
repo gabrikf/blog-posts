@@ -1,7 +1,7 @@
 // test/e2e/get-all-posts.e2e-spec.ts
 import { INestApplication } from '@nestjs/common';
-import { resetDb } from '../../../infra/database/tests/helpers/resetDb';
-import { setupTest } from '../../../infra/database/tests/helpers/setup-test';
+import { resetDb } from '../../../infra/tests/helpers/resetDb';
+import { setupTest } from '../../../infra/tests/helpers/setup-test';
 import * as request from 'supertest';
 import { PaginatedPostsResponse } from './get-all-posts.validation';
 

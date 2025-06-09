@@ -1,6 +1,6 @@
 import { INestApplication } from '@nestjs/common';
-import { resetDb } from '../../../infra/database/tests/helpers/resetDb';
-import { setupTest } from '../../../infra/database/tests/helpers/setup-test';
+import { resetDb } from '../../../infra/tests/helpers/resetDb';
+import { setupTest } from '../../../infra/tests/helpers/setup-test';
 import * as request from 'supertest';
 import { BlogPostWithComments } from './get-post-by-id.validation';
 

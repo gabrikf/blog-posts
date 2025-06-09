@@ -1,7 +1,7 @@
 import { INestApplication } from '@nestjs/common';
 import * as request from 'supertest';
-import { resetDb } from '../../../infra/database/tests/helpers/resetDb';
-import { setupTest } from '../../../infra/database/tests/helpers/setup-test';
+import { resetDb } from '../../../infra/tests/helpers/resetDb';
+import { setupTest } from '../../../infra/tests/helpers/setup-test';
 import { CommentResponse } from './create-comment.validation';
 
 describe('POST /posts/:id/comments', () => {
